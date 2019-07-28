@@ -19,13 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoMovies.Domain", "src\In
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{6AAE1152-A02E-4DED-B0C0-AAEC9FC19135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoMovies.Infra.Data", "src\InfoMovies.Infra.Data\InfoMovies.Infra.Data.csproj", "{333FB2A5-AF4F-4D2C-83D3-15892069613D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoMovies.Infra.Data", "src\InfoMovies.Infra.Data\InfoMovies.Infra.Data.csproj", "{333FB2A5-AF4F-4D2C-83D3-15892069613D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{516AA424-05BE-46F7-BD00-7BBF720FDEF1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{516AA424-05BE-46F7-BD00-7BBF720FDEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoMovies.Infra.CrossCutting.IoC", "src\InfoMovies.Infra.CrossCutting.IoC\InfoMovies.Infra.CrossCutting.IoC.csproj", "{620890D8-74BB-4766-AA62-10F6DF4E5B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoMovies.Infra.CrossCutting.IoC", "src\InfoMovies.Infra.CrossCutting.IoC\InfoMovies.Infra.CrossCutting.IoC.csproj", "{620890D8-74BB-4766-AA62-10F6DF4E5B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoMovies.Application", "src\InfoMovies.Application\InfoMovies.Application.csproj", "{FB22D7BB-378F-4BB5-B411-21D86825C2CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfoMovies.Application", "src\InfoMovies.Application\InfoMovies.Application.csproj", "{FB22D7BB-378F-4BB5-B411-21D86825C2CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
