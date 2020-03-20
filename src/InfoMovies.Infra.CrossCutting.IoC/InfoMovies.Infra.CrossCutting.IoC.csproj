@@ -8,4 +8,10 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InfoMovies.Application\InfoMovies.Application.csproj" />
+    <ProjectReference Include="..\InfoMovies.Domain\InfoMovies.Domain.csproj" />
+    <ProjectReference Include="..\InfoMovies.Infra.Data\InfoMovies.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

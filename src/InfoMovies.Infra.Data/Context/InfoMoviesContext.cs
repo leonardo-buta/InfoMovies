@@ -7,13 +7,11 @@ namespace InfoMovies.Infra.Data.Context
 {
     public class InfoMoviesContext : DbContext
     {
-        private readonly IHostingEnvironment _env;
-
         public DbSet<Movie> Movies { get; set; }
 
-        public InfoMoviesContext(IHostingEnvironment env)
+        public InfoMoviesContext(DbContextOptions<InfoMoviesContext> options) : base(options)
         {
-            _env = env;
+            
         }        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -22,12 +20,5 @@ namespace InfoMovies.Infra.Data.Context
 
             base.OnModelCreating(modelBuilder);
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //var config = new ConfigurationBuilder()
-            //    .SetBasePath
-        }
-
     }
 }

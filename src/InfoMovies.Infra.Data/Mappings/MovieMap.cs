@@ -18,18 +18,15 @@ namespace InfoMovies.Infra.Data.Mappings
 
             builder.Property(x => x.HomePage)
                 .HasColumnType("varchar(255)")
-                .HasMaxLength(255)
-                .IsRequired();
+                .HasMaxLength(255);
 
             builder.Property(x => x.Tagline)
                 .HasColumnType("varchar(100)")
-                .HasMaxLength(100)
-                .IsRequired();
+                .HasMaxLength(100);
 
             builder.Property(x => x.Runtime)
                 .HasColumnType("varchar(255)")
-                .HasMaxLength(255)
-                .IsRequired();
+                .HasMaxLength(255);
         }
     }
 }
